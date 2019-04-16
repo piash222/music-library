@@ -1,3 +1,6 @@
+{% extends 'music/base.html' %}
+
+{% block body %}
 <img src="{{ album.album_logo }}" alt="logo not found">
 
 <h1>{{ album.album_title }}</h1>
@@ -24,3 +27,4 @@
 
     <input type="submit" value="Favorite">
 </form>
+{% endblock body %}
