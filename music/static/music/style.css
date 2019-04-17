@@ -1,3 +1,9 @@
 body{
     background: white url("images/background.png");
 }
+
+.img-resize{
+    height:40vh;
+    object-fit: cover;
+    object-position: center center;
+}
